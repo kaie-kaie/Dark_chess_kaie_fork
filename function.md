@@ -24,6 +24,6 @@ getColor(name) 得到某玩家顏色
 
 get_checkboard() 得到目前棋盤顯示
 
-check_game_over()檢查遊戲是否結束與結果
-# 回傳值: "Playing" (遊戲繼續), "Draw" (平手), 或 "{玩家名} Win" (某玩家獲勝)
+check_game_over()檢查遊戲是否結束與結果# 回傳值: "Playing" (遊戲繼續), "Draw" (平手), 或 "{玩家名} Win" (某玩家獲勝)
+
 
