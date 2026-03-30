@@ -236,7 +236,3 @@ def check_game_over():
         return "Draw"
         
     return "Playing"
-
-# 判斷和局
-def is_draw():
-    return move_count_since_action >= 50
