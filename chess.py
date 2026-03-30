@@ -88,6 +88,8 @@ def draw_piece_from_pool():
 #傳入玩家名(A或B)和1~2組座標 1組時為翻牌 2組時為移動/吃 將回傳此行動是否合法
 def client_action(name, x1, y1, x2=-1, y2=-1):
     global move_count_since_action, current_turn
+
+    if (check_game_over() != "Playing"): return False
     
     valid, message = isValid(name, x1, y1, x2, y2)
     
